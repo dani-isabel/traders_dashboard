@@ -1,0 +1,13 @@
+@import '../utilities/variables';
+nav {
+    height: 73px;
+    a {
+        color: $firstColor;
+        font-size: $h2size;
+    }
+    form {
+        input {
+            height: 23px;
+        }
+    }
+}
