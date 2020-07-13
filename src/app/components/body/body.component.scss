@@ -1,0 +1,46 @@
+@import '../utilities/variables';
+body {
+    width: 96%;
+    height: 754px;
+    margin: 20px 0 0 44px;  
+    h1 {
+        font-size: $h1size;
+        color: $secondColor;
+        font-weight: bold;
+    }
+    p {
+        font-size: $bodysize;
+        color: $secondColor;
+    }
+    h2 {
+        font-size: $h2size; 
+        color: $secondColor; 
+        font-weight: bold;  
+    }
+    .description {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 345px;
+        .map {
+            align-self: flex-end;
+            background-color: $grey;
+            width: 585px; 
+            height: 345px;
+        }
+    }
+    .graphics {
+        padding: 20px 0 0 0;
+        height: 252px;
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .card {
+            width: 255px;
+            height: 193px;
+            background-color: $firstColor;
+        }
+    }
+}
