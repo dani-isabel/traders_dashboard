@@ -1,13 +1,24 @@
 @import '../utilities/variables';
 nav {
     height: 73px;
+    width: 90%;
+    margin-left: 10%;
     a {
         color: $firstColor;
         font-size: $h2size;
     }
     form {
         input {
+            width: 441px;
             height: 23px;
+            color: $secondColor;
+            font-style: italic;
+            font-size:  $h4size;
+            font-weight: $medium;
+        }
+        .form-control {
+            border: 1px solid #1E1F58;
+            border-radius: 10px;
         }
     }
 }
