@@ -43,4 +43,15 @@ body {
             background-color: $firstColor;
         }
     }
+    .filters {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: flex-end;
+        margin: 5% auto;
+        padding: 1%;
+        width: 90%;
+        background-color: $firstColor;
+        border-radius: 15px;
+    }
 }
