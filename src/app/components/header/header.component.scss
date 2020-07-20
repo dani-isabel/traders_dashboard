@@ -8,6 +8,7 @@ nav {
     background-color: $firstColor;
     img {
         margin-left: 44px;
+        width: 12%;
     }
     a {
         margin-left: 10px;
@@ -34,7 +35,7 @@ nav {
         align-items: center;
         padding: 2px;
         margin: 0 44px 0 0;
-        background-color: $tirdColor;
+        background-color: $fourthColor;
         height: 23px;
         width: 61px;
         border-radius: 10px;
@@ -44,8 +45,8 @@ nav {
             width: 20px;
             height: 20px;
             border: none;
-            background: transparent linear-gradient(321deg, #1EC0C3 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
-            border: 1px solid #775DFF;
+            background: transparent linear-gradient(321deg, $secondColor 0%, $firstColor 100%) 0% 0% no-repeat padding-box;
+            border: 1px solid $secondColor;
             border-radius: 100%;
         }
     }
